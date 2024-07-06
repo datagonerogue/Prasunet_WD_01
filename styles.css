@@ -197,10 +197,11 @@ footer p {
 
   #nav-menu ul {
     justify-content: space-around;
+    padding-right: 20px;
   }
 
-  #nav-menu li {
-    margin: 5px 0;
+  #nav-menu li a {
+    padding: 5px;
   }
 
   #nav-menu a {
