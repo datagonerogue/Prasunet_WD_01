@@ -75,9 +75,9 @@ header.scrolled {
 
 #nav-menu a:hover,
 #nav-menu a.active {
-  color: #ffd9ce;
-  background-color: #171738;
-  border: #ffd9ce solid 2px;
+  color: #171738;
+  background-color: #ffd9ce;
+  border: #171738 solid 2px;
 }
 
 #cta-button {
@@ -95,7 +95,7 @@ header.scrolled {
 #cta-button:hover {
   color: #ffd9ce;
   background-color: #171738;
-  border: #ffd9ce solid 2px;
+  border: #171738 solid 2px;
 }
 
 /* Main Content Styles */
