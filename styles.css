@@ -88,7 +88,7 @@ header.scrolled {
 /* Main Content Styles */
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url("img3.jpg");
+    url("images/banner-image.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
