@@ -65,24 +65,34 @@ header.scrolled {
   text-decoration: none;
   font-size: 16px;
   padding: 10px 15px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border: #00000000 solid 2px;
   border-radius: 5px;
 }
 
 #nav-menu a:hover,
 #nav-menu a.active {
-  background-color: #171738;
-  color: #ffd9ce;
+  background-color: #ffd9ce;
+  color: #171738;
+  border: #171738 solid 2px;
 }
 
 #cta-button {
-  color: #ffd9ce;
   text-decoration: none;
   font-size: 1.1em;
-  background-color: #171738;
   padding: 10px;
   border-radius: 5px;
   margin-right: 30px;
+  color: #171738;
+  border: #171738 solid 2px;
+  background-color: #ffd9ce;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+#cta-button:hover {
+  color: #ffd9ce;
+  background-color: #171738;
+  border: #ffd9ce solid 2px;
 }
 
 /* Main Content Styles */
@@ -104,6 +114,7 @@ header.scrolled {
   font-weight: 400;
   font-style: normal;
   color: #ffd9ce;
+  user-select: none;
 }
 
 .works {
