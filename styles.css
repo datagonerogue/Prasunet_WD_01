@@ -1,9 +1,12 @@
 /* Global Styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background-color: #171738;
   color: #171738;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 a {
   color: #8ef9f3;
@@ -14,7 +17,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: hsla(0, 0, 0, 0.1);
   padding: 0px;
   display: flex;
   align-items: center;
@@ -40,7 +42,8 @@ header.scrolled {
 
 .hero h1 {
   color: #171738;
-  font-family: "Junge", cursive;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -72,9 +75,9 @@ header.scrolled {
 
 #nav-menu a:hover,
 #nav-menu a.active {
-  background-color: #ffd9ce;
-  color: #171738;
-  border: #171738 solid 2px;
+  color: #ffd9ce;
+  background-color: #171738;
+  border: #ffd9ce solid 2px;
 }
 
 #cta-button {
@@ -139,6 +142,10 @@ header.scrolled {
 .image-header {
   font-size: 5em;
   padding: 20px 60px;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .image-discription {
