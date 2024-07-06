@@ -35,8 +35,8 @@ header.scrolled {
 }
 
 #header-logo {
-  max-height: 50px;
-  margin: 0 20px;
+  max-height: 2.5em;
+  margin: 0 1vw;
   border-radius: 5px;
 }
 
@@ -135,6 +135,7 @@ header.scrolled {
 
 .work-image {
   width: 500px;
+  height: 700px;
   border-radius: 5px;
   border: #171738 3px solid;
 }
@@ -166,4 +167,76 @@ footer {
 footer p {
   margin: 0px;
   padding: 0px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .hero {
+    margin-bottom: 0px;
+    align-self: center;
+  }
+
+  #header-logo {
+    max-height: 40px;
+    margin: 0 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  #nav-menu {
+    width: 100%;
+    margin: 10px;
+  }
+
+  #nav-menu ul {
+    justify-content: space-around;
+    margin-right: 50px;
+  }
+
+  #nav-menu li {
+    margin: 5px 0;
+  }
+
+  #nav-menu a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #cta-button {
+    margin-right: 30px;
+    text-align: center;
+    align-self: center;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+      url("images/img2.jpg");
+
+    padding: 20px;
+  }
+
+  .banner h2 {
+    font-size: 10em;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd9ce;
+    user-select: none;
+  }
+
+  .work-image {
+    display: none;
+  }
 }
