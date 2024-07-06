@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #42033d;
-  color: #ffd9ce;
+  background-color: #171738;
+  color: #171738;
 }
 a {
   color: #8ef9f3;
@@ -103,10 +103,36 @@ header.scrolled {
   font-family: "Imperial Script", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #ffd9ce;
 }
 
-main {
-  padding: 50px;
+.works {
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffd9ce;
+}
+.work {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.work img {
+  width: 500px;
+  border-radius: 5px;
+  border: #171738 3px solid;
+}
+
+.image-header {
+  font-size: 5em;
+  padding: 20px 60px;
+}
+
+.image-discription {
+  font-size: 1.3em;
+  padding: 20px 60px;
   text-align: left;
 }
 
@@ -114,6 +140,12 @@ main {
 footer {
   background-color: #ffd9ce;
   color: #171738;
-  padding: 20px;
-  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer p {
+  margin: 0px;
+  padding: 0px;
 }
