@@ -238,13 +238,13 @@ footer p {
 
   .works {
     text-align: left;
-
     border-radius: 5px;
     background-color: #ffd9ce;
   }
   .work {
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
   }
 
@@ -265,7 +265,9 @@ footer p {
   }
 
   .work-image {
-    display: none;
+    width: 400px;
+    height: 577px;
+    order: 1;
   }
 
   footer p {
